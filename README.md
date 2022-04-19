@@ -5,9 +5,10 @@ Repositorio do Projeto
 
 ## Links
 [Sintaxe Markdown](https://www.markdownguide.org/basic-syntax/)
-[Jogo do VIM](https://vim-adventures.com/)
-![vim-game](https://user-images.githubusercontent.com/40872405/164102693-aa12c0a4-6f81-4952-8436-f6fecf5f8fbc.PNG)
 
+[Jogo do VIM](https://vim-adventures.com/)
+
+<img src="https://user-images.githubusercontent.com/40872405/164102693-aa12c0a4-6f81-4952-8436-f6fecf5f8fbc.PNG" width="300" height="300">
 
 ## Usando VIM
 
