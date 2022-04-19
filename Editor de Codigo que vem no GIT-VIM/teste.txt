@@ -1,0 +1,11 @@
+Para entrar em modo "INSERT" você deve usar a Teclada "I" ou o botão INSERT se tiver no seu teclado
+
+E depois de escrever seus codigos, você deve sair do editor usando botão ESC COLOCAR O DOIS PONTO ":" 
+depois escrever "wq" (write quit)
+
+Logo para escrever e sair é. ESC :wq
+Para sair sem salvar é ESC :q!
+para só escrever sem sair é ESC :w
+e para forçar um escreva e quit é ESC :wq!
+
+

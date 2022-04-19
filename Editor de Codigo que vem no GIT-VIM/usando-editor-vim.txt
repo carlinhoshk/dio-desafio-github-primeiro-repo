@@ -1,0 +1,95 @@
+
+Vim para mim é um Otimo Editor de Codigo, sempre que eu entro em uma nova maquina ou precisso editar codigo pelo SSH. Vim ou Nano sempre vem a minha cabeça. Diferente de Produzir Codigos, Editar Codigo é algo rapido e Pratico que não demanda tanto de um Editor ou algo que "Complete" seus Codigos. É um pouco dificil de acostumar, mas como eu disse a função é Editar codigo não Criar.
+
+Nos Print do Repositorio eu vou colocar o Basico e nessesario para usar o VIM em seu basico, Abrir, Escrever e Salvar.
+
+
+Porem vou deixar aqui os comandos mais complexos que podem ser usado no VIM :
+
+Em geral
+Quase todos os comandos podem ser precedidos por um número para uma contagem de repetição. por exemplo. 5dd deletar 5 linhas
+<Esc> tira você de qualquer modo e volta ao modo de comando
+Comandos precedidos por : são executados na linha de comando na parte inferior da tela
+:help ajuda com qualquer comando
+Navegação
+Movimento do cursor: ←h ↓j ↑k l→
+Por palavras:
+w próxima palavra (por pontuação); W próxima palavra (por espaços)
+b palavra de volta (por pontuação); B back word (por espaços)
+e palavra final (por pontuação); E palavra final (por espaços)
+Por linha:
+0 início de linha; ^ primeiro não-espaço em branco
+$ fim de linha
+Por parágrafo:
+{ linha em branco anterior; } próxima linha em branco
+Por arquivo:
+gg início do arquivo; G fim do arquivo
+123G vá para o número de linha específico
+Por marcador:
+mx marca x; 'x vai marcar x
+'. ir para a posição da última edição
+' ' volta ao último ponto antes de pular
+Rolagem:
+^F para frente em tela cheia; ^B para trás em tela cheia
+^D para baixo metade da tela; ^U para cima meia tela
+^E rolar uma linha para cima; ^Y rolar uma linha para baixo
+zz linha de cursor central
+Editando
+você desfaz; ^R refazer
+. repetir o último comando de edição
+Inserindo
+Todos os comandos de inserção são finalizados com <Esc> para retornar ao modo de comando.
+
+insiro texto no cursor; Eu insiro texto no início da linha
+um texto anexado após o cursor; Um texto anexado após o final da linha
+o abrir nova linha abaixo; O abra uma nova linha acima
+Mudando
+r substitui um único caractere; R substitui vários caracteres
+s alterar um único caractere
+cw mudar palavra; C mudar para fim de linha; cc mudar linha inteira
+c<motion> altera o texto na direção do movimento
+ci(alterar dentro de parênteses (veja seleção de objeto de texto para mais exemplos)
+Excluindo
+x deletar caractere
+dw excluir palavra; D delete até o final da linha; dd deletar linha inteira
+d<motion> exclui na direção do movimento
+Copiar e colar
+yy copie a linha no buffer de colagem; dd linha de corte no buffer de colagem
+p colar buffer abaixo da linha do cursor; P colar buffer acima da linha do cursor
+xp troca dois caracteres (x para excluir um caractere, então p para colocá-lo de volta após a posição do cursor)
+Blocos
+v fluxo de bloco visual; V linha de bloqueio visual; ^V coluna do bloco visual
+a maioria dos comandos de movimento estende o bloco para a nova posição do cursor
+o move o cursor para a outra extremidade do bloco
+d ou x bloco de corte em buffer de pasta
+y copie o bloco no buffer de colagem
+> bloco de recuo; < bloco sem recuo
+gv reseleciona o último bloco visual
+Global
+:%s/foo/bar/g substitui todas as ocorrências de "foo" por "bar"
+% é um intervalo que indica todas as linhas do arquivo
+/g é um sinalizador que altera todas as ocorrências em uma linha em vez de apenas a primeira
+Procurando
+/ pesquisa para frente; ? pesquisar para trás
+* pesquisa para a frente da palavra sob o cursor; # pesquisa para trás a palavra sob o cursor
+n próxima partida na mesma direção; N próxima partida na direção oposta
+fx avançar para o próximo caractere x; Fx para trás para o caractere anterior x
+; mover novamente para o mesmo personagem na mesma direção; , mova novamente para o mesmo caractere na direção oposta
+arquivos
+:w grava o arquivo no disco
+:w nome grava arquivo no disco como nome
+ZZ grava o arquivo no disco e sai
+:n edita um novo arquivo; :n! editar um novo arquivo sem salvar as alterações atuais
+:q para de editar um arquivo; :q! saia da edição sem salvar as alterações
+:e edite o mesmo arquivo novamente (se alterado fora do vim)
+: e. explorador de diretório
+janelas
+^Wn nova janela
+^Wj para a próxima janela; ^Wk até a janela anterior
+^W_ maximizar a janela atual; ^W= torna todas as janelas do mesmo tamanho
+^W+ aumenta o tamanho da janela; ^W- diminuir o tamanho da janela
+Navegação de origem
+% salta para parêntese/colchete/chave, ou bloco de idioma se o módulo de idioma estiver carregado
+gd vá para a definição do símbolo local sob o cursor; ^O retornar à posição anterior
+^] pule para definição do símbolo global (requer arquivo de tags); ^T retornar à posição anterior (pilha arbitrária de posições mantida)
+^N (no modo de inserção) preenchimento automático de palavras

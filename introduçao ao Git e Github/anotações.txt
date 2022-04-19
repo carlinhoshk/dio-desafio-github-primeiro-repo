@@ -3,4 +3,5 @@
 
 link para download do Git :https://github.com/git-for-windows/git/releases/download/v2.35.3.windows.1/Git-2.35.3-64-bit.exe 
 
-O Git bash é um Terminal 20% Linux dentro do proprio Windows, não tem tantas funcionalidades Linux porem da para usar os comandos basicos como : cd, ls, mkdir, etc... e ainda tem o Editor de codigo VIM
+Git Bash é um Terminal que copia 20% do Linux dentro do proprio Windows, comandos basicos como : cd, ls, mkdir, etc e até vem com editor de codigo VIM
+
