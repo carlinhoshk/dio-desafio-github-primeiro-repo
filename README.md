@@ -3,8 +3,11 @@ Repositorio do Projeto
 
 
 
-## Linkes
+## Links
 [Sintaxe Markdown](https://www.markdownguide.org/basic-syntax/)
+[Jogo do VIM](https://vim-adventures.com/)
+![vim-game](https://user-images.githubusercontent.com/40872405/164102693-aa12c0a4-6f81-4952-8436-f6fecf5f8fbc.PNG)
+
 
 ## Usando VIM
 
@@ -17,6 +20,6 @@ Repositorio do Projeto
 3- Depois da Edição você tem que Salvar e Sair, para fazer isso você primeiro tem que aperta a Teclada ESC e depois escrever :wq ENTER.
 
 isso é só basico do VIM na pasta XXXXX você vai encontrar mais COMANDOS do vim que podem te ajudar ou Complicar xD...
+VIM tem até um joguinho que você vai aprender a usar ele e se Familiar com o mesmo, deixei o Link a cima do Repositorio.
 
 
-## Jogo do VIM
