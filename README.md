@@ -20,7 +20,11 @@ Repositorio do Projeto
 
 3- Depois da Edição você tem que Salvar e Sair, para fazer isso você primeiro tem que aperta a Teclada ESC e depois escrever :wq ENTER.
 
+
+# Adicionais 
+
 isso é só basico do VIM, porem no [TXT](https://github.com/carlinhoshk/dio-desafio-github-primeiro-repo/blob/main/Editor%20de%20Codigo%20que%20vem%20no%20GIT-VIM/comandos-vim.txt) da [PASTA](https://github.com/carlinhoshk/dio-desafio-github-primeiro-repo/tree/main/Editor%20de%20Codigo%20que%20vem%20no%20GIT-VIM) você vai encontrar mais COMANDOS do vim que podem te ajudar ou Complicar xD...
+
 VIM tem até um joguinho que você vai aprender a usar ele e se Familiar com o mesmo, deixei o Link a cima do Repositorio.
 
 
